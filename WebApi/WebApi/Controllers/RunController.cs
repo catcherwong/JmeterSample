@@ -29,7 +29,7 @@
 
             if (dto.UserName.Contains("catcherwong") || dto.Password.Length == 32)
             {
-                return Ok(new { code = 0, msg = "ok" });
+                return Ok(new { code = 0, msg = "ok", data = new { token = System.Guid.NewGuid().ToString("N") } });
             }
             else
             { 
