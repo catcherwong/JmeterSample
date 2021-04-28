@@ -33,7 +33,7 @@
             }
             else
             { 
-                return BadRequest(new { code = 1, msg = "非法用户" });
+                return Ok(new { code = 1, msg = "用户名或密码错误" });
             }
         }
     }
