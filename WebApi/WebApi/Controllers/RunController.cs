@@ -1,6 +1,7 @@
 ﻿namespace WebApi.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
+    using WebApi.Dtos;
 
     [ApiController]
     [Route("[controller]")]
@@ -36,12 +37,5 @@
                 return Ok(new { code = 1, msg = "用户名或密码错误" });
             }
         }
-    }
-
-    public class LoginDto
-    { 
-        public string UserName { get; set; }
-
-        public string Password { get; set; }
     }
 }

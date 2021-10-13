@@ -46,7 +46,23 @@
 
 对应下面这篇博文：
 
-[聊一聊Jmeter的多接口测试]()
+[聊一聊Jmeter的多接口测试](https://mp.weixin.qq.com/s/TT_BA3iqzdagj0yAkc73_Q)
+
+### sample4.jmx
+
+接 sample3，接口有依赖，但是要根据上一个接口的返回再决定下一个接口
+
+对应下面这篇博文：
+
+[聊一聊Jmeter用IF控制器处理接口依赖]()
+
+### sample5.jmx
+
+多用户登录，获取token后，再请求对应的业务接口
+
+对应下面这篇博文：
+
+[聊一聊Jmeter模拟多用户登录获取token]()
 
 ## csv
 
