@@ -54,7 +54,7 @@
 
 对应下面这篇博文：
 
-[聊一聊Jmeter用IF控制器处理接口依赖]()
+[聊一聊Jmeter用IF控制器处理接口依赖](https://mp.weixin.qq.com/s/oflxwRt3hdaoPjqd8Jehig)
 
 ### sample5.jmx
 
@@ -62,7 +62,7 @@
 
 对应下面这篇博文：
 
-[聊一聊Jmeter模拟多用户登录获取token]()
+[聊一聊Jmeter多用户token使用问题](https://mp.weixin.qq.com/s/UOBDmtouoBjd5BQvp2FNTg)
 
 ## csv
 
